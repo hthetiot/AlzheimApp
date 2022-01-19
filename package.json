@@ -1,13 +1,36 @@
 {
   "name": "AlzheimApp",
+  "description": "Cognitive brain training application for people with alzheimer",
   "version": "1.0.0",
   "main": "index.js",
+  "private": false,
+  "license": "GPLv3",
+  "author": "Diyaeddine LAOUID",
+  "contributors": [
+    "Harold Thetiot"
+  ],
+  "keywords": [
+    "alzheimer",
+    "Cognitive"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dilaouid/AlzheimApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dilaouid/AlzheimApp/issues"
+  },
   "scripts": {
     "start": "expo start --dev-client",
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "build:web": "expo build:web"
+    "prettify": "prettier --write .  --config ./.prettierrc",
+    "lint": "eslint --ext js,ts,tsx .",
+    "build:web": "expo build:web",
+    "build:ios": "expo build:ios",
+    "build:android": "expo build:android",
+    "config": "expo config --type public"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "~1.15.0",
@@ -52,7 +75,8 @@
     "expo-localization": "^12.0.0",
     "expo-splash-screen": "~0.14.1",
     "expo-sqlite": "~10.1.0",
-    "expo-status-bar": "~1.2.0"
-  },
-  "private": true
+    "expo-status-bar": "~1.2.0",
+    "eslint": "^7.3.1",
+    "@react-native-community/eslint-config": "^2.0.0"
+  }
 }
