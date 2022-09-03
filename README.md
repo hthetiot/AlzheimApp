@@ -19,7 +19,18 @@ Une fois le tout installé, vous pouvez continuer l'installation de l'applicatio
 
 Pour lancer l'installation de l'application après avoir cloné le projet, lancez simplement la commande
 ```sh
-expo start
+npm install && expo start
 ```
 Expo se chargera de vous informer de tout ce que vous pouvez faire ensuite.
 
+### Présentation du projet
+
+AlzheimApp est une application mobile libre et opensource pour améliorer le suivi des personnes atteintes de la maladie d'Alzheimer. Il ne nécessite aucune connexion en ligne, et donc ne récolte aucune données.
+Elle propose les fonctionnalités suivantes:
+- Création de plusieurs profils (un profil par malade)
+- Jeu des pairs
+- Jeu du Simon
+- Quiz personnalisable (quiz unique pour le profil)
+- Journal vocal
+- Enregistrement du score pour le profil
+- Partage du profil et/ou de sa progression (par fichier ou par Bluetooth/Wifi Direct)
