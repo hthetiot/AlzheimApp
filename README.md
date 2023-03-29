@@ -34,3 +34,36 @@ Elle propose les fonctionnalités suivantes:
 - Journal vocal
 - Enregistrement du score pour le profil
 - Partage du profil et/ou de sa progression (par fichier ou par Bluetooth/Wifi Direct)
+
+
+[EN]
+### Prerequisites
+
+The application needs the following packages to work properly:
+
+| Package | Version |
+| ------ | ------ |
+| Expo 5.3.0 |
+| Node | 17.8.0 |
+
+Once everything is installed, you can continue installing the application.
+
+### Installation
+
+To start the installation of the application after cloning the project, simply run the command
+``sh
+npm install && expo start
+```
+Expo will tell you everything you can do next.
+
+### Introducing the project
+
+AlzheimApp is a free and opensource mobile application to improve the monitoring of people with Alzheimer's disease. It does not require any online connection, and therefore does not collect any data.
+It offers the following features:
+- Creation of multiple profiles (one profile per patient)
+- Peer game
+- Simon's game
+- Customizable quiz (unique quiz for the profile)
+- Voice diary
+- Record the score for the profile
+- Sharing of the profile and/or its progress (by file or by Bluetooth/Wifi Direct)
