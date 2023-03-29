@@ -51,10 +51,9 @@ Once everything is installed, you can continue installing the application.
 ### Installation
 
 To start the installation of the application after cloning the project, simply run the command
-``sh
+```sh
 npm install && expo start
 ```
-
 Expo will tell you everything you can do next.
 
 ### Introducing the project
