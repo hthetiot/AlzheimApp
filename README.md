@@ -61,7 +61,7 @@ Expo will tell you everything you can do next.
 AlzheimApp is a free and opensource mobile application to improve the monitoring of people with Alzheimer's disease. It does not require any online connection, and therefore does not collect any data.
 It offers the following features:
 - Creation of multiple profiles (one profile per patient)
-- Peer game
+- Double memory game
 - Simon's game
 - Customizable quiz (unique quiz for the profile)
 - Voice diary
