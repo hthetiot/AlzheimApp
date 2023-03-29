@@ -87,11 +87,12 @@ export async function reset() {
     const path = `${FileSystem.documentDirectory}persons`;
     const file = await FileSystem.getInfoAsync(path);
     if (file.exists) {
-        FileSystem.deleteAsync(`${FileSystem.documentDirectory}persons`).then(async res => {
+        FileSystem.deleteAsync(`${FileSystem.documentDirectory}persons`).then(async () => {
+            // could be done with promise allSttled
             await SimonDB.removeAsync({}, { multi: true });
             await QuizDB.removeAsync({}, { multi: true });
             await DictaphoneDB.removeAsync({}, { multi: true });
-        }).catch(err => {
+        }).catch(() => {
             console.log('[!] Directory does not exists');
         });
     }
