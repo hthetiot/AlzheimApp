@@ -121,7 +121,7 @@ export default function Dictaphone(props) {
             name: title?.trim() || DictaphoneLang[props.lang].Untitled,
             path: path,
             personId: props.personId,
-        }).then((created) => {
+        }).then(() => {
                 setModal(false);
                 setTitle('');
                 setRecording(false);
@@ -133,7 +133,7 @@ export default function Dictaphone(props) {
     // Called in children component
     const deleteRecord = () => {
         API.del(props.personId, deleteId)
-            .then((data) => {
+            .then(() => {
                 setDeleteId(0);
                 API.get(props.personId)
                     .then((data) => {
@@ -239,7 +239,7 @@ export default function Dictaphone(props) {
                         titleStyle={styles.listItemTitle}
                         buttonStyle={styles.cancel}
                         containerStyle={{ marginRight: 10 }}
-                        onPress={(e) => {
+                        onPress={() => {
                             setDeleteId(0);
                         }}
                     />

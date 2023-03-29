@@ -2,7 +2,7 @@ import React from 'react';
 import { ListItem, Icon } from 'react-native-elements';
 import { Platform, Alert } from 'react-native';
 import { lang as QuizLang } from '../../../language/activities/quiz';
-import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
+import { widthPercentageToDP as wp } from 'react-native-responsive-screen';
 
 import { ScoreRatio } from './utils/scoreFunc';
 import styles from './styles';

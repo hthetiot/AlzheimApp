@@ -16,7 +16,7 @@ import * as FileSystem from 'expo-file-system';
 
 import styles from './styles';
 import Form from '../../../components/selection/PersonCreation/Form';
-import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
+import { widthPercentageToDP as wp } from 'react-native-responsive-screen';
 
 
 export default function Settings(props) {

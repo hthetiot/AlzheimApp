@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { ScrollView } from 'react-native';
 import { Button } from 'react-native-elements';
 import ActivitiesList from '../../../data/activities';
-import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
+import { widthPercentageToDP as wp } from 'react-native-responsive-screen';
 
 import styles from './styles';
 

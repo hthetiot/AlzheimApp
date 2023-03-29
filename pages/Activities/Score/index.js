@@ -1,8 +1,5 @@
 import React from 'react';
 import { ScrollView } from 'react-native';
-
-import { lang as ActivitiesLang } from '../../../language/activities';
-
 import QuizScore from './QuizScore';
 import SimonScore from './SimonScore';
 import DoubleScore from './DoubleScore';

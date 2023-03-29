@@ -14,7 +14,7 @@ import Lottie from '../../utils/Lottie';
 import styles from './styles';
 
 import { generateRandomPair } from './subs/helpers';
-import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
+import { widthPercentageToDP as wp } from 'react-native-responsive-screen';
 
 import Card from './subs/Card';
 
