@@ -54,6 +54,7 @@ To start the installation of the application after cloning the project, simply r
 ``sh
 npm install && expo start
 ```
+
 Expo will tell you everything you can do next.
 
 ### Introducing the project
