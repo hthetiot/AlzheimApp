@@ -15,6 +15,14 @@
         {
           "photosPermission": "L'application a besoin d'importer certaines de vos images pour la création de vos quiz et/ou de la personnalisation d'un profil"
         }
+      ],
+      [
+        "expo-navigation-bar",
+        {
+          "position": "relative",
+          "visibility": "hidden",
+          "behavior": "inset-swipe"
+        }
       ]
     ],
     "android": {
@@ -40,8 +48,8 @@
       "backgroundColor": "#355c7d",
       "resizeMode": "contain"
     },
-    "androidNavigationBar": {
-      "visible": "immersive"
+    "androidStatusBar": {
+      "hidden": true
     }
   }
 }
