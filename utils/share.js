@@ -48,8 +48,8 @@ const isValidDate = (d) => {
     return n instanceof Date && !isNaN(n);
 };
 
-const fileToBase64 = async (uri) => {
-    return await FileSystem.readAsStringAsync(uri, {
+const fileToBase64 = (uri) => {
+    return FileSystem.readAsStringAsync(uri, {
         encoding: 'base64',
     });
 };
@@ -141,17 +141,10 @@ export const checkQuiz = async (quiz, personId) => {
     return true;
 };
 
-export const checkDouble = (double, personId) => {
-    if (typeof double !== 'object') return false;
-    for (let i = 0; i < double.length; i++)
-        if (!scoreVerification(double[i], personId)) return false;
-    return true;
-};
-
-export const checkSimon = (simon, personId) => {
-    if (typeof simon !== 'object') return false;
-    for (let i = 0; i < simon.length; i++)
-        if (!scoreVerification(simon[i], personId)) return false;
+export const checkGameScore = (game, personId) => {
+    if (typeof game !== 'object') return false;
+    for (let i = 0; i < game.length; i++)
+        if (!scoreVerification(game[i], personId)) return false;
     return true;
 };
 

@@ -51,11 +51,11 @@ export default function ImportData(props) {
 
             // Checking double format
             setStep(6);
-            if (await dataImport.checkDouble(parsed.activities.double, parsed._id) === false) throw HomeLang[props.lang].InvalidDoubleData;
+            if (await dataImport.checkGameScore(parsed.activities.double, parsed._id) === false) throw HomeLang[props.lang].InvalidDoubleData;
 
             // Checking simon format
             setStep(7);
-            if (await dataImport.checkSimon(parsed.activities.simon, parsed._id) === false) throw HomeLang[props.lang].InvalidSimonData;
+            if (await dataImport.checkGameScore(parsed.activities.simon, parsed._id) === false) throw HomeLang[props.lang].InvalidSimonData;
       
             // Checking dictaphone format
             setStep(8);
