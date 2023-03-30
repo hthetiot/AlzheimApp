@@ -5,7 +5,7 @@ import { Button, Icon, Text } from 'react-native-elements';
 import { lang as QuizLang } from '../../../language/activities/quiz';
 
 import QuestionMark from '../../../assets/img/activities/help/question_mark.gif';
-import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
+import { widthPercentageToDP as wp } from 'react-native-responsive-screen';
 
 import Lottie from '../../utils/Lottie';
 import styles from './styles';

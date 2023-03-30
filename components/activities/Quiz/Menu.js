@@ -3,7 +3,7 @@ import { Image, ActivityIndicator } from 'react-native';
 import { Button, Icon } from 'react-native-elements';
 
 import { lang as QuizLang } from '../../../language/activities/quiz';
-import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
+import { widthPercentageToDP as wp } from 'react-native-responsive-screen';
 
 import QuizLogo from '../../../assets/img/activities/quiz/logo.png';
 

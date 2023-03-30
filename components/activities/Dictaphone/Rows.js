@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { ListItem, Icon, LinearProgress } from 'react-native-elements';
-import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
+import { widthPercentageToDP as wp } from 'react-native-responsive-screen';
 import { Platform } from 'react-native';
 import { Audio } from 'expo-av';
 import styles from './styles';
