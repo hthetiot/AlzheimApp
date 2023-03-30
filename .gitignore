@@ -125,3 +125,4 @@ web-build/
 dist/
 
 # @end expo-cli
+pnpm-lock.yaml
