@@ -37,7 +37,7 @@ export default function Game(props) {
 
     const SimonButtonStyle = Platform.OS == 'web' ? styles.SimonButtonWeb : styles.SimonButton;
 
-    useEffect(async () => {
+    useEffect(() => {
         // API.clear(props.personId);
         if (start === false) {
             setLoading(true);
@@ -59,9 +59,8 @@ export default function Game(props) {
             // The useEffect is launched when the game is launched
             // or when the order is updated (at the end of a turn)
             for (let i = 0; i < order.length; i++) {
-                if (!success) {
-                    await playButtonDemo(order[i]);
-                }
+                if (!success)
+                    playButtonDemo(order[i]);
             }
             setCanPlay(true);
         }
