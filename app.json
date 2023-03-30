@@ -3,7 +3,8 @@
     "name": "AlzheimApp",
     "description": "",
     "slug": "AlzheimApp",
-    "version": "1.0.7",
+    "version": "1.0.8",
+    "sdkVersion": "48.0.0",
     "icon": "./assets/img/AppIcon.png",
     "assetBundlePatterns": [
       "**/*"
@@ -27,7 +28,7 @@
     ],
     "android": {
       "package": "org.alzheimApp",
-      "versionCode": 9,
+      "versionCode": 10,
       "adaptiveIcon": {
         "backgroundImage": "./assets/adaptativeIcon/background.png",
         "foregroundImage": "./assets/adaptativeIcon/foreground.png"
@@ -50,6 +51,11 @@
     },
     "androidStatusBar": {
       "hidden": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a96f6076-308d-4bca-b56a-ced7f2ee3354"
+      }
     }
   }
 }
